@@ -48,6 +48,12 @@
             {
                 Console.Write("*");
             }
+
+            Console.WriteLine();
+            Console.WriteLine();
+            Console.WriteLine("Output complete");
+            Console.WriteLine("Thank you for using this program");
+            Console.WriteLine("See more at: https://github.com/lyndonpanton");
         }
     }
 }
