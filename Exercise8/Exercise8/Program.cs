@@ -26,6 +26,28 @@
             }
 
             Console.WriteLine();
+            Console.WriteLine("A row of asterisk is about to be printed...");
+
+            int numberOfAsterisks;
+
+            while (true)
+            {
+                Console.Write("How many asterisks would you like in the row: ");
+                numberOfAsterisks= Convert.ToInt32(Console.ReadLine());
+
+                if (numberOfAsterisks > 0)
+                {
+                    break;
+                }
+
+                Console.WriteLine("Error: Input must be greater than 0");
+                Console.WriteLine();
+            }
+
+            for (int i = 1; i <= numberOfAsterisks; i++)
+            {
+                Console.Write("*");
+            }
         }
     }
 }
